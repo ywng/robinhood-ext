@@ -2,4 +2,5 @@
 applications:
  - name: GetStartedPython
    random-route: true
-   memory: 128M
+   memory: 512M
+   timeout: 180
