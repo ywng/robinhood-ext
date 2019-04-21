@@ -3,7 +3,7 @@ import os
 import json
 
 app = Flask(__name__)
-port = 8080
+port = 80
 
 # Test api call
 @app.route('/test', methods=['get'])
