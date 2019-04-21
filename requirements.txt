@@ -1,9 +1,1 @@
-Flask==0.12.2
-cf-deployment-tracker==1.0.4
-cloudant==2.4.0
-http://download.pytorch.org/whl/cu75/torch-0.1.12.post2-cp27-none-linux_x86_64.whl ; sys_platform == "linux"
-http://download.pytorch.org/whl/cu75/torch-0.1.12.post2-cp27-none-linux_x86_64.whl ; sys_platform == "linux2"
-http://download.pytorch.org/whl/torch-0.1.12.post2-cp27-none-macosx_10_7_x86_64.whl ; sys_platform == "darwin"
-torchvision
-Pillow
-numpy 
+
