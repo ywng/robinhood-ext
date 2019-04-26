@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <link rel='stylesheet' type='text/css' href='../static/dashboard.css'>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+  <script src="//code.jquery.com/jquery-3.4.0.min.js"></script>
+  <script src='../static/requests.js'></script>
+  <script src='../static/dashboard.js'></script>
+  <body>
+    <h1>RobinhoodVis</h1>
+
+    <form>
+      <input id="username" type="text" placeholder="username">
+      <input id="password" type="password" placeholder="password">
+      <a href="#" onclick="fetch_data();">connect</a>
+    </form>
+    <div class="chart"></div>
+    
+  </body>
+</html>
