@@ -1,4 +1,4 @@
-from Robinhood import Robinhood
+from Robinhood.Robinhood import Robinhood
 import pandas as pd
 from collections import defaultdict
 
@@ -70,7 +70,7 @@ class InfoRetriever:
         return pd.DataFrame(df_rows)
 
 def get_dashboard_data(user, password):
-    my_trader = Robinhood()
+    my_trader = Robinhood.Robinhood()
     logged_in = my_trader.login(username=user, password=password)
 
     retriever = InfoRetriever(my_trader)

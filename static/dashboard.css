@@ -1,43 +1,43 @@
-    .chart rect {
-        fill: steelblue;
-    }
-    .chart rect:hover {
-        fill: turquoise;
-    }
-    .chart .rectM {
-        stroke: green;
-        stroke-width: 1;
-        fill: green;
-        fill-opacity: .2;
-    }
-    .chart .rectM:hover {
-        fill: green;
-        fill-opacity: .5;
-    }
-    .chart text {
-        font: 10px sans-serif;
-    }
-    .chart .title {
-        font: 15px sans-serif;
-    }
-    .axis path,
-    .axis line {
-    fill: none;
-    stroke: #000;
-    shape-rendering: crispEdges;
-    }
-    .chart .tooltip {
-        display: inline-block;
-        text-align: center;
-        color: white;
-        background-color: darkslategray;
-        padding: 5px 5px 5px 5px;
-    }
-    .tooltip .title {
-        font-weight: bold;
-    }
-    #marker {
-       fill: red;
-       font-weight: bold;
-       font: 13px sans-serif;
-    }
+.chart rect {
+    fill: steelblue;
+}
+.chart rect:hover {
+    fill: turquoise;
+}
+.chart .rectM {
+    stroke: green;
+    stroke-width: 1;
+    fill: green;
+    fill-opacity: .2;
+}
+.chart .rectM:hover {
+    fill: green;
+    fill-opacity: .5;
+}
+.chart text {
+    font: 10px sans-serif;
+}
+.chart .title {
+    font: 15px sans-serif;
+}
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+.chart .tooltip {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    padding: 5px 5px 5px 5px;
+}
+.tooltip .title {
+    font-weight: bold;
+}
+#marker {
+   fill: red;
+   font-weight: bold;
+   font: 13px sans-serif;
+}
