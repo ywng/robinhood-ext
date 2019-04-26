@@ -1,6 +1,3 @@
-//apiDomain = "http://127.0.0.1:8080/"  
-apiDomain = "https://robinhood-ext.appspot.com/"   
-
 /* user related */
 
 /* Portfolio */
@@ -24,9 +21,9 @@ function get_dashboard_data(username, password, onSuccess){
 /** generic ajax call */
 /** other calls are just build onto this */
 function rawAjaxCall(relativeURL,type,async_setting,data,onSuccess,onFailure){
-	console.log("Firing request: " + apiDomain + relativeURL);
+	console.log("Firing request: " + relativeURL);
 	$.ajax({
-        url: apiDomain + relativeURL,
+        url: relativeURL,
         contentType:false,
 		processData: false,
 		cache: false,
