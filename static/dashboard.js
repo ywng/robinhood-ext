@@ -9,7 +9,7 @@ function fetch_data() {
     plot_holdings_vis(data);
   }
 
-  get_dashboard_data(username, password, onSuccess);
+  get_dashboard_data(username, password, onSuccess); //in static/requests.js
 
 }
 
